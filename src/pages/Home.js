@@ -10,14 +10,14 @@ export default function SimplePaper() {
         flexWrap: 'wrap',
         '& > :not(style)': {
           m: 1,
-          width: 128,
-          height: 128,
+          width: 2000,
+          height: 700,
+          borderRadius: 25,
+          m: 3, 
         },
       }}
     >
-      <Paper elevation={0} />
-      <Paper />
-      <Paper elevation={3} />
+      <Paper elevation={2} />
     </Box>
   );
 }
